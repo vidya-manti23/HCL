@@ -1,3 +1,6 @@
+// IF i= n-1, then its NGE
+// IF i=2n-1 and curr = a[i%n], then its CIRCULAR NGE
+
 #include<bits/stdc++.h>
 using namespace std;
 
