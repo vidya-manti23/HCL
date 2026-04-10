@@ -1,3 +1,11 @@
+// open = push
+// stack empty = return false
+// closed = match and pop
+// else return false..//closed and not matched
+
+// open - stack empty - close - else return false
+// if - elsse if = else if - else
+
 #include <bits/stdc++.h>
 using namespace std;
 
