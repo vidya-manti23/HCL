@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+long long fact(int num){
+    if(num==0||num==1) return 1;
+    else return num*fact(num-1);
+}
+
+int main(){
+    int n,r;
+    cin>>n>>r;
+    if(r>n) cout<<"invalid input"<<endl;
+    long long nCr = fact(n)/(fact(n-r)*fact(r));
+    cout<<nCr;
+    return 0;
+}
+
